@@ -32,7 +32,6 @@ window.addEventListener('load', (event) => {
         
       }
 
-
     }
   });
 
@@ -144,18 +143,34 @@ window.addEventListener('load', (event) => {
       document.querySelector("#nav_block").style.display = "flex";
   });
 
-  document.querySelectorAll(".new_block1").forEach(function(item){
+  document.querySelectorAll(".new_block_m").forEach(function(item){
     
     item.addEventListener("click", function(event){
-      document.querySelector("#block_nav2").style.display = "flex";
+      document.querySelector("#block_nav2").style.display = "block";
+      document.querySelector(".sp_close_m1").style.display = "none";      
     });
   });
 
 
-  document.querySelectorAll(".new_block2").forEach(function(item){
+  document.querySelectorAll(".new_block_t").forEach(function(item){
     
     item.addEventListener("click", function(event){
-      document.querySelector("#block_nav").style.display = "flex";
+      document.querySelector("#block_nav3").style.display = "block";
+      document.querySelector(".sp_close_m2").style.display = "none";
+    });
+  });
+
+  document.querySelectorAll(".sp_close_m").forEach(function(item){
+    
+    item.addEventListener("click", function(event){
+
+      document.querySelector("#block_nav2").style.display = "none";
+      document.querySelector("#block_nav3").style.display = "none";
+      document.querySelector(".sp_close_m").style.display = "block";
+      document.querySelector(".sp_close_m1").style.display = "block";
+      document.querySelector(".sp_close_m2").style.display = "block";
+      document.querySelector("#nav_block").style.display = "none";
+      document.body.classList.remove("body_scroll");
     });
   });
 

@@ -1,0 +1,808 @@
+@media screen and (max-width: 1200px){
+
+	#acces_rapide{
+		margin-top: 250px;
+	}
+
+	#pr_card{
+		width: 86%;
+		height: 222px;
+	}
+
+	#min_card{
+		width: 91%;
+		margin: 50px 0px;
+	}
+
+
+	#pr_card_img{
+		a{
+			width: 50%;
+			img{
+				width: 90%;
+				height: 222px;
+			}
+		}
+	}
+
+
+	#pr_card_info{
+		margin-top: 15px;
+	}
+
+
+	#pr_title{
+		margin: 5px 0px;
+		a{
+			font-size: 16px;
+		}
+	}
+
+	#pr_text{
+		height: 150px;
+		overflow: hidden;
+	}
+
+	#pr_date{
+		margin: 10px 0px 20px 0px;
+		a{
+			line-height: 0.25;
+		}
+	}
+
+
+
+	.block_agenda{
+		width: 320px;	
+		height: 260px;
+	}
+
+
+	.agenda_text{
+		a{
+			p{
+				color: $color_five;
+				font-size: 12px;
+				margin-bottom: 10px;
+				width: 140px;
+				height: 86px;
+				overflow: hidden;
+			}
+		}
+	}
+
+	#lavie{
+		padding-left: 80px; 
+	}	
+
+	#lavie_block{
+		margin-top: 50px;
+	}
+
+	.block_lavie{
+		width: 380px;
+		a{
+			width: 100%;
+			img{
+				width: 380px;
+				height: 200px;
+			}
+		}
+	}
+
+
+	#block_accueil{
+		margin-left: 11%;
+		width: 500px;
+	}
+
+	#welcome_horaires{
+		width: 300px;
+	}
+
+	#formation_img{
+		height: 350px;
+	}
+
+	#formation_text{
+		width: 320px;
+	}
+
+
+
+	.reseaux_img{
+		margin-top: 20px;
+			width: 100%;
+			height: 100%;
+		a{
+			width: 100%;
+			height: 100%;
+		}
+	}	
+
+	#footer{
+		margin-bottom: 0px;
+	}
+
+	#footer_info{
+		width: 50%;
+		margin-bottom: 50px;
+	}
+
+	#footer_map{
+		width: 50%;
+		height: 566px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	#radio_t{
+		margin-top: 9px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 992px){
+
+	#nav_left, #pr_card{
+		display: none !important;
+	}
+
+	#global{
+		margin-left: 0px;
+	}
+
+
+	#footer_mobile, #top_nav_mobile, #card_mobile{
+		display: flex !important;
+	}
+	
+	#top_nav, #header_title, #header_sub_title{
+		display: none !important;
+	}
+
+
+	.big_title{
+		width: 87%;
+		margin-bottom: 40px;
+	}
+
+
+	.sp_title{
+		h2{
+			font-size: 40px;
+			line-height: 0.5;
+		}
+	}	
+
+	.sp_hr{
+		hr{
+	    	width: 80px;
+			}
+	}
+
+
+	.card{
+		width: 45%;
+		height: 450px;
+		margin-right: 5%;
+		margin-bottom: 5%;
+	}
+
+
+	.card_title{
+		a{
+			font-size: 14px;
+		}
+	}
+
+	.card_text{
+			height: 80px;
+			overflow: hidden;				
+	}
+
+	#pagination_agenda{
+		margin-left: 50px;
+	}
+
+
+	.block_agenda{
+		width: 390px;	
+		height: 260px;
+	}	
+
+
+	#lavie_block{
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+
+	.block_lavie{
+		width: 320px;
+		a{
+			width: 100%;
+			img{
+				width: 100%;
+				height: 200px;
+			}
+		}
+	}
+
+
+	#retrouvez_nous{
+		height: 400px;
+	}
+
+
+	#block_accueil{
+		height: 470px;
+		width: 430px ;
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		margin-left: 10%;
+		margin-top: 100px;
+
+		box-shadow: 5px 5px 5px 5px rgba(175,167,167);
+		-webkit-box-shadow: 5px 5px 5px 5px rgba(175,167,167);
+		-moz-box-shadow: 5px 5px 5px 5px rgba(175,167,167);
+	}
+
+	#welcome_horaires{
+		width: 230px;
+		height: 260px;
+		border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		margin-top: 225px;
+		margin-left: -26px;
+	}	
+
+
+	#formation_img{
+		height: 300px;
+	}
+
+
+	#formation_text{
+		width: 300px;
+	}
+
+
+	.reseaux_img{	
+		margin-bottom: 40px;	
+		width: 260px;
+		height: 260px;
+		a{
+			width: 260px;
+			height: 260px;
+		}
+	}
+
+
+	#footer{
+		margin-bottom: 50px;
+	}
+
+	#footer_info{
+		width: 100%;
+		margin-bottom: 50px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#footer_adresse{
+		text-align: center;
+		h6{
+			width: 100%;
+		}
+	}
+
+	#footer_map{
+		width: 100%;
+		height: 566px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+	#footer_title{
+		width: 100%;
+		h2{
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	#sp_gropue, #radio_b, #uni_occ{
+		align-items: center;
+  		justify-content: center;
+	}
+
+
+	#radio_t{
+		margin-top: 9px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+
+	#acces_rapide{
+		margin-top: 350px;
+	}
+
+	.big_title{
+		width: 87%;
+		margin-bottom: 40px;
+	}
+
+
+	.sp_title{
+		h2{
+			font-size: 30px;
+			line-height: 0.5;
+		}
+	}	
+
+	.sp_hr{
+		hr{
+	    	width: 50px;
+	    	margin: 20px 0px 0px 10px; 
+			}
+	}
+
+	.card{
+		width: 70% ;
+		height: 480px ;
+		margin-right: 20% ;
+		margin-bottom: 5%;
+	}
+
+
+	.card_date{
+		margin: 20px 0px 10px 0px;
+	}	
+
+
+	#lavie_block{
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+
+	.block_lavie{
+		width: 450px;
+		a{
+			width: 100%;
+			img{
+				width: 100%;
+				height: 250px;
+			}
+		}
+	}
+
+
+	#retrouvez_nous{
+	  background-size: 100% 340px;
+		height: 900px;
+		margin-top: 80px;
+		margin-bottom: 200px;
+	}
+
+
+	#block_accueil{
+		height: 470px;
+		width: 100%;
+		border: none;
+		border-radius: 0px;
+		-webkit-border-radius: 0px;		
+		-moz-border-radius: 0px;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+
+		margin-left: 0px;
+		margin-top: 342px;		
+	}
+
+	#welcome_horaires{
+		width: 100%;
+		height: 260px;
+		background : $color_two;
+		border-radius: 30px 0px 30px 0px;
+		-webkit-border-radius: 30px 0px 30px 0px;
+		-moz-border-radius: 30px 0px 30px 0px;
+		margin-top: 8px;
+		margin-left: 0px;
+	}
+
+
+	#formation{
+		padding-left: 0px; 
+		width: 100%;
+	}
+
+	#formation_img{	
+		padding-right: 0px;
+		width: 100%;	
+		height: 300px;
+		img{
+			border-radius: 30px 0px 30px 0px;
+			-webkit-border-radius: 30px 0px 30px 0px;
+			-moz-border-radius: 30px 0px 30px 0px;				
+		}
+
+	}
+
+	#formation_img_b{
+		width: 100%;
+	}
+
+	#formation_text{
+		width: 150px;
+	}
+
+	#sp_formation_img_b{
+		visibility: hidden;
+	}
+
+	#block_formation{
+		width: 100%;
+		text-align: center ;	
+	}
+
+	#block_formation_b{
+		width: 100%;
+		text-align: center;
+	}
+
+
+
+	#formation_title{
+		width: 100%;
+		h2{
+			font-size: 16px;
+		}
+	}
+
+
+	#formation_text{
+		width: 100%;
+		 padding:12px;
+		p{
+			font-size: 14px;
+		}	
+	}
+
+	#formation_btn{
+		margin-top: -15px;
+		margin-bottom: 15px;
+	}	
+
+	#formation_img_b{
+		width: 100%;
+	}
+
+
+	.reseaux_img{
+		margin-top: 20px;
+		width: 250px;
+		height: 250px;
+		a{
+			width: 250px;
+			height: 250px;
+		}
+	}	
+
+
+	#footer{
+		margin-bottom: 50px;
+	}
+
+	#footer_info{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	#footer_map{
+		width: 100%;
+		height: 566px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+
+	#footer_title{		
+		width: 100%;
+		h2{
+			margin: 0px 20px;
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+
+	#footer{
+		margin-bottom: 50px;
+	}
+
+	#footer_info{
+		width: 100%;
+		margin-bottom: 50px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#footer_adresse{
+		text-align: center;
+		h6{
+			width: 100%;
+		}
+	}
+
+	#footer_map{
+		width: 100%;
+		height: 566px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+
+	#footer_title{
+		width: 100%;
+		h2{
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	#sp_gropue, #radio_b, #uni_occ{
+		align-items: center;
+  	justify-content: center;
+	}
+
+	#radio_t{
+		margin-top: 9px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 576px){
+
+
+	#acces_rapide{
+		margin-top: 330px;
+	}
+
+	.rapide_acces{
+		a{
+			width: 120px;
+			height: 110px;
+			color: $color_three;
+		}
+	}
+
+	.sp_title{
+		h2{
+			font-size: 22px;
+			line-height: 0.5;
+		}
+	}	
+
+	.sp_hr{
+		hr{
+	    	width: 22px;
+	    	margin: 20px 0px 0px 5px; 
+			}
+	}
+
+	.card{
+		width: 70% ;
+		height: 480px ;
+		margin-right: 20% ;
+		margin-bottom: 5%;
+	}
+
+
+
+	#lavie{
+		padding-left: 40px; 
+	}
+
+	#lavie_block{
+		margin-top: 5px;
+	}
+
+	.block_lavie{
+		width: 450px;
+		a{
+			width: 100%;
+			img{
+				width: 100%;
+				height: 250px;
+			}
+		}
+	}
+
+
+	#retrouvez_nous{
+	  background-size: 100% 340px;
+	  width: 100%;
+		height: 850px;
+		margin-top: 80px;
+		margin-bottom: 200px;
+	}
+
+
+	#block_accueil{
+		height: 470px;
+		width: 100%;
+		border: none;
+		border-radius: 0px;
+		-webkit-border-radius: 0px;		
+		-moz-border-radius: 0px;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+
+		margin-left: 0px;
+		margin-top: 342px;		
+	}
+
+	#welcome_horaires{
+		width: 100%;
+		height: 260px;
+		background : $color_two;
+
+		border-radius: 30px 0px 30px 0px;
+		-webkit-border-radius: 30px 0px 30px 0px;
+		-moz-border-radius: 30px 0px 30px 0px;
+
+		margin-top: 8px;
+		margin-left: 0px;
+	}
+
+
+	#formation{
+		padding-left: 0px; 
+		width: 100%;
+	}
+
+	#formation_img{	
+		padding-right: 0px;
+		width: 100%;	
+		height: 300px;
+		img{
+			border-radius: 30px 0px 30px 0px;
+			-webkit-border-radius: 30px 0px 30px 0px;
+			-moz-border-radius: 30px 0px 30px 0px;				
+		}
+
+	}
+
+	#formation_img_b{
+		width: 100%;
+	}
+
+	#formation_text{
+		width: 150px;
+	}
+
+	#sp_formation_img_b{
+		visibility: hidden;
+	}
+
+	#block_formation{
+		width: 100%;
+		text-align: center ;	
+	}
+
+	#block_formation_b{
+		width: 100%;
+		text-align: center;
+	}
+
+
+
+	#formation_title{
+		width: 100%;
+		h2{
+			font-size: 16px;
+		}
+	}
+
+
+	#formation_text{
+		width: 100%;
+		 padding:12px;
+		p{
+			font-size: 14px;
+		}	
+	}
+
+	#formation_btn{
+		margin-top: -15px;
+		margin-bottom: 15px;
+	}	
+
+	#formation_img_b{
+		width: 100%;
+	}
+
+
+	.reseaux_img{
+		margin-top: 20px;
+		width: 250px;
+		height: 250px;
+		a{
+			width: 250px;
+			height: 250px;
+		}
+	}	
+
+
+	#footer{
+		margin-bottom: 50px;
+	}
+
+	#footer_info{
+		width: 100%;
+		margin-bottom: 50px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#footer_adresse{
+		text-align: center;
+		h6{
+			width: 100%;
+		}
+	}
+
+	#footer_map{
+		width: 100%;
+		height: 566px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+
+	#footer_title{
+		width: 100%;
+		h2{
+			width: 100%;
+			text-align: center;
+		}
+	}
+
+	#sp_gropue, #radio_b, #uni_occ{
+		align-items: center;
+  	justify-content: center;
+	}
+
+
+	#radio_t{
+		margin-top: 9px;
+	}
+
+
+}
